@@ -6,7 +6,7 @@ $(function(){
 		ulMenu.slideToggle();	
 	});
     $(document).ready(function(){
-         $(".owl-carousel").owlCarousel({
+         $('.owl-carousel').owlCarousel({s
             loop:true,
             margin:30,
 		    responsive:{
