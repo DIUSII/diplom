@@ -1,0 +1,105 @@
+@media screen and (max-width: 1024px) {
+	.dwo-teg-main{
+		display: none;
+	}
+	.fixed-container{
+		max-width: 950px;
+		padding: 0 40px;
+	}
+	.main-section-scope{
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 600px;
+		margin: 0 auto;
+	}
+	.block-section-window{
+		padding-bottom: 20px;
+	}
+	.block-main-my-data h1{
+		font-size: 54px;
+	}
+	.right-block-ul{
+		display: none;
+	}
+	.right-block-header{
+		width: 30px;
+		height: 30px;
+		background: url('img/gamburger.gif') no-repeat 0 50%;
+		background-size: contain;
+	}
+	.close{
+			background: url('img/close.png');
+			background-size: contain;
+	}	
+	.right-block-li-mobail{
+		margin-bottom: 15px;
+		border-bottom: 
+	}	
+	.right-block-ul-mobail{
+		list-style: none;
+	}	
+	.arrow,.arrow-dwo{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.block-main-my-data{
+		display: none;
+	}
+	.numder{
+	font-size: 18px;
+	}	
+	.block-main-my-data-dwo{
+		padding-top:20px;
+		text-align: center;
+		display:block;
+	}
+	.block-main-my-data-dwo h1{
+	font-size: 30px;
+	margin: 0;
+	}
+	.block-main-my-botton{
+		width: 280px;
+	padding: 25px 60px;}
+	.left-block-header .left-block-button{
+		display: none;
+	}
+	.main-section-scope{
+		width: 100%;
+		flex-direction: column;
+	}
+	.block-main-backgraunt .flex-conteiner{
+		justify-content: center;
+	}
+	.main-section-head{
+		padding: 60px 0;
+		font-size: 30px;
+	}
+	.block-fre-head{
+		font-size: 28px;
+	}
+	.block-footer-big{
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	
+	.item-dwo-block{
+		font-size: 20px;
+	}
+	.fixed-container{
+		padding: 0 20px;
+	}
+	.section-button,.block-section-fre{
+		padding: 60px 0;
+	}
+	.mobail-phone{
+	display: block;}
+	.right-block-header{
+		width: 25px;
+		height: 25px;
+	}
+	.block-footer-mini{
+		font-size: 12px;
+	}
+}
